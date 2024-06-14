@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab</title>
+    <style>
+        /* Estilo básico para a tabela */
+        table {
+            width: 100%;
+            height: 100%;
+            border-collapse: collapse;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin:0%;
+            text-align: left; /* Alinhamento ajustado para esquerda para melhor leitura de texto */
+        }
+
+        .cell1 {
+            background-color: lightblue;
+
+        }
+
+        .cell2 {
+            background-color: lightgreen;
+
+        }
+
+        /* Responsividade para telas menores*/ 
+             @media (max-width: 600px) {
+            table, tbody, tr, td {
+                display: flex;
+                
+            }
+        }
+
+            td {
+                box-sizing: border-box;
+                display: flex;
+                justify-content: space-between;
+                padding-left: 100%;
+                position: relative;
+            }
+
+            /* Ajuste para melhorar a legibilidade em dispositivos menores */
+            .cell1, .cell2 {
+                padding: 20px;
+            }
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td class="cell1" data-label="Disfagia">
+                    Nível 1: Disfagia Grave<br>
+                    Pode-se verificar um ou mais dos seguintes problemas:<br>
+                    – Retenção severa de alimento em faringe, com impossibilidade de clareamento.<br>
+                    – Perda ou retenção severa do bolo alimentar em cavidade oral, com impossibilidade de clareamento.<br>
+                    – Aspiração silenciosa de duas ou mais consistências, ausência de tosse voluntária, ou incapacidade de alcançar a deglutição.<br>
+                    Nível 2: Disfagia Moderada-Grave<br>
+                    Pode-se verificar um ou mais dos seguintes problemas:<br>
+                    - Retenção alimentar severa em faringe, com impossibilidade ou dificuldade de clareamento, ou necessitando de várias solicitações do examinador.<br>
+                    - Perda ou retenção severa do bolo alimentar, com impossibilidade ou dificuldade do clareamento, ou necessitando de várias solicitações.<br>
+                    – Aspiração de duas ou mais consistências alimentares, ausência de tosse reflexa, tosse voluntária fraca, ou aspiração de uma ou mais consistências, sem tosse, e penetração de uma ou mais consistências, sem tosse.<br>
+                    Nível 3: Disfagia Moderada<br>
+                    
+                </td>
+                <td class="cell2" data-label="Crise de Confiança">
+                    Estamos vivendo uma grande crise de confiança no nosso corpo e na nossa alimentação. Tudo está complicado.<br>
+                    As pessoas não sabem mais o que comer, não sabem mais como lidar com a comida e se esqueceram do princípio básico que é o bom senso e o bem-estar.<br>
+                    Não cuidam mais do corpo.<br>
+                    porque as pessoas estão sempre se perguntando: será que posso comer? Devo comer? Isso tudo atrapalha a escolha.
+                </td>
+            </tr> 
+        </table>
+    </div>
+</body>
+</html>
+

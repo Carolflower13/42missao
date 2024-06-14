@@ -1,0 +1,17 @@
+body {
+    padding-top: 56px; /* Altura da barra de navegação */
+  }
+  
+  .navbar-brand, .nav-link {
+    font-size: 1.2em;
+  }
+  
+  .container {
+    max-width: 960px;
+  }
+  
+  img.rounded-circle {
+    border: 2px solid #ddd;
+  }
+  
+Z

@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#parallax {
+    position : cover;
+    background-attachment: fixed;
+    repeat = no
+    background-image: url("Samcat.jpeg");
+    height: 100%;
+
+}
+
+.parallax1 {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50, -50);
+    color:rgba(167, 112, 112, 0.5)
+}
+
+.parallax2 {
+    position: relative;
+    background-attachment: fixed;
+    background-image: url("Paçoca.jpeg"); /* Caminho relativo */
+    height: 138vh;
+}
+
+.text-block {
+    background-color: aqua;
+    background-repeat: no-repeat;
+    height:18px;
+    width: 100%;
+    color: red;
+    font-size: 18px;
+    text-align: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para melhor legibilidade do texto */
+    height: 138px;
+}
